@@ -5,6 +5,9 @@ public class KostyaTest {
     @Test
     public void factorialTest() {
         Assertions.assertEquals(2, Kostya.factorialRecursive(2));
-        Assertions.assertEquals(2, Kostya.factorialIterative(5));
+    }
+    @Test
+    public void factorialTest2() {
+        Assertions.assertEquals(120, Kostya.factorialRecursive(5));
     }
 }
